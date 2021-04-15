@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
+
+body{
+  margin: 0 0 0 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover
+{
+     color:#00A0C6;
+     text-decoration:none;
+     cursor:pointer;
+}
+
+.icon1{
+  position: absolute;
+  font-size: 48px;
+  margin-top: 120px;
+  margin-left: 360px;
+  vertical-align: middle;
+
+}
+.icon2{
+  vertical-align: middle;
+  position: absolute;
+  font-size: 48px;
+  margin-top: 120px;
+  margin-left: 420px;
+
+}
+
+.profile{
+  position: relative;
+  margin: 40px 80px 0 80px;
+  width: 150px;
+  height: 150px;
+}
+.title{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Source Code Pro';
+  color: Black ;
+  margin: 70px auto 0 auto;
+  vertical-align: top;
+  width: 200px;
+  height: 100px;
+}
+.about{
+  font-size: 20px;
+  font-family: 'Source Code Pro';
+  margin-left: 10px;
+
+}
+.bott{
+  text-align: center;
+  font-family: 'Zilla Slab Highlight';
+  color: black;
+  vertical-align: top;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+
+.top-container{
+  width: 825px;
+  height: 405px;
+  margin: 150px auto 0 auto;
+}
+
+.left-containter{
+ vertical-align: top;
+ top: auto;
+ width: 300px;
+ height: 400px;
+ background-color: white;
+ border: 3px solid black;
+ border-radius: 25px;
+ display:inline-block;
+
+}
+.right-container{
+  top: auto;
+  bottom: auto;
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 25px;
+  display:inline-block;
+}
+
+.bottom-container{
+  height: 90px;
+
+
+}
